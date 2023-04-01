@@ -7,6 +7,26 @@
     <title>Tip Calculator</title>
 </head>
 <body>
-    <p>Hello world!</p>
+    <div class="container">
+        <h1>Калькулятор чайових</h1>
+        <form action="">
+            <p>Загальна сума чеку:</p>
+            <input type="text" placeholder="Сума чеку">
+            <p>Як ви оцінюєте серсіс?</p>
+            <select>
+                <option disabled selected value = "0">--Виберіть варіант--</option>
+                <option value="0.01">1% - Жахливо</option>
+                <option value="0.05">5% - Погано</option>
+                <option value="0.1">10% - Нормально</option>
+                <option value="0.15">15% - Задовільно</option>
+                <option value="0.25">25% - Неперевершено</option>
+            </select>
+            <p>На скількох людей ділимо чек?</p>
+            <p>
+                <input type="text" placeholder="К-ть людей">
+            </p>
+            <button type="button", id="caclulate">Порахувати</button>
+        </form>
+    </div>
 </body>
 </html>
