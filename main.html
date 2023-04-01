@@ -11,9 +11,9 @@
         <h1>Калькулятор чайових</h1>
         <form action="">
             <p>Загальна сума чеку:</p>
-            <input type="text" placeholder="Сума чеку">
+            <input type="text" id="billamount" placeholder="Сума чеку">
             <p>Як ви оцінюєте серсіс?</p>
-            <select>
+            <select id="servicequality">
                 <option disabled selected value = "0">--Виберіть варіант--</option>
                 <option value="0.01">1% - Жахливо</option>
                 <option value="0.05">5% - Погано</option>
@@ -23,10 +23,16 @@
             </select>
             <p>На скількох людей ділимо чек?</p>
             <p>
-                <input type="text" placeholder="К-ть людей">
+                <input id = "peoplecount" type="text" placeholder="К-ть людей">
             </p>
-            <button type="button", id="caclulate">Порахувати</button>
+            <button type="button", id="calculate">Порахувати</button>
         </form>
     </div>
+
+    <div id = "totalTip">
+        <span id ="tip">0.00</span>
+        <p>За кожного</p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
