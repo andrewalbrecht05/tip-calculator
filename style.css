@@ -1,0 +1,12 @@
+body{
+    background-color: #408E91;
+}
+.container{
+    background-color: #E49393;
+    display: block;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}

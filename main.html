@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -12,20 +13,20 @@
         <form action="">
             <p>Загальна сума чеку:</p>
             <input type="text" id="billamount" placeholder="Сума чеку">
-            <p>Як ви оцінюєте серсіс?</p>
+            <p>Як ви оцінюєте сервіс?</p>
             <select id="servicequality">
                 <option disabled selected value = "0">--Виберіть варіант--</option>
-                <option value="0.01">1% - Жахливо</option>
-                <option value="0.05">5% - Погано</option>
-                <option value="0.1">10% - Нормально</option>
-                <option value="0.15">15% - Задовільно</option>
-                <option value="0.25">25% - Неперевершено</option>
+                <option value="1.01">1% - Жахливо</option>
+                <option value="1.05">5% - Погано</option>
+                <option value="1.1">10% - Нормально</option>
+                <option value="1.15">15% - Задовільно</option>
+                <option value="1.25">25% - Неперевершено</option>
             </select>
             <p>На скількох людей ділимо чек?</p>
             <p>
                 <input id = "peoplecount" type="text" placeholder="К-ть людей">
             </p>
-            <button type="button", id="calculate">Порахувати</button>
+            <button type="button" id="calculate">Порахувати</button>
         </form>
     </div>
 
